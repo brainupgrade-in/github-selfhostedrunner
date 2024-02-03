@@ -1,5 +1,5 @@
 {
-  "name": "node-app-jenkins-docker",
+  "name": "github-selfhostedrunner",
   "version": "1.0.0",
   "description": "Test HTTP server",
   "main": "main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajeshgheware/node-app-jenkins-docker/"
+    "url": "https://github.com/ghewareunigpssolutions/github-selfhostedrunner/"
   },
   "keywords": [
     "node",
     "docker",
     "jenkinsfile"
   ],
-  "author": "rajesh@unigps.in",
+  "author": "rajesh@brainupgrade.in",
   "license": "MIT",
   "devDependencies": {
     "test": ">=0.6.0"
