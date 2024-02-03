@@ -11,7 +11,8 @@ env:
 jobs:
   build-and-deploy:
     runs-on: 
-      group: 'self-hosted-linux'
+      group: 'github-codespace-runners'
+      labels: 'Linux'
     steps:
     - uses: actions/checkout@v2
 
