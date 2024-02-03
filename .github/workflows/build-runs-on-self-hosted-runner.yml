@@ -5,7 +5,7 @@ name: App Build and Package
 
 jobs:
   build:
-    name: Compile
+    name: Create Release
     runs-on: self-hosted
     steps:
       - name: Checkout code
