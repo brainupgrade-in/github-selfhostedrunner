@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch:
+
+name: Create Maven Build
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - run: |
+          echo "Run, Build Application using script"
+          ./mvnw clean install
