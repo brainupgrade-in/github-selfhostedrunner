@@ -1,15 +1,15 @@
 on:
   workflow_dispatch:
 
-name: Create Maven Build
+name: App Build and Package
 
 jobs:
   build:
-    name: Create Release
+    name: Compile
     runs-on: self-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - run: |
-          echo "Run, Build Application using script"
-          ./mvnw clean install
+          echo "Compile application"
+          javac -version
