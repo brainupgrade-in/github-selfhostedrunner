@@ -3,5 +3,5 @@
   "features": {
     "ghcr.io/devcontainers/features/aws-cli:1": {}
   },
-  "postCreateCommand": "./.devcontainer/self-hosted-runner.sh"
+  "postCreateCommand": "./.devcontainer/self-hosted-runner.sh &"
 }

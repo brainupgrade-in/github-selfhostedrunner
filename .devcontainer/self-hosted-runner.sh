@@ -10,4 +10,4 @@ tar xzf ./actions-runner-linux-x64-2.312.0.tar.gz
 
 ./config.sh --url https://github.com/brainupgrade-in/github-selfhostedrunner --token ASQXT3DHN7TVYEWPIF7HOP3FXXDVY
 
-./run.sh &
+./run.sh 
